@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionario</title>
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    .fondo-animado {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(-45deg, #9f5df8, #c64df8, #f85d99, #f89e5d, #f8e35d);
+      background-size: 400% 400%;
+      animation: animacionFondo 10s ease-in-out infinite;
+    }
+
+    nav {
+      margin-top: 400px;
+      padding: 20px;
+      position: relative;
+
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin:auto;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    a:hover {
+      background-color: orange;
+      color: white;
+      
+    }
+
+    @keyframes animacionFondo {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="fondo-animado"></div>
+  <nav>
+    <ul>
+      <li><a href="cuestionario.xml">Cuestionario</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

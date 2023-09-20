@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cuestionario.xslt"?>
+<preguntas>
+  <pregunta>
+    <enunciado>¿Qué es un sistema operativo?</enunciado>
+    <respuestas>
+      <respuesta correcta="true">Es un software que administra los recursos de hardware y software de un dispositivo.</respuesta>
+      <respuesta correcta="false">Es un tipo de lenguaje de programación.</respuesta>
+      <respuesta correcta="false">Es una unidad de almacenamiento de datos.</respuesta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es el sistema operativo más utilizado en ordenadores de escritorio?</enunciado>
+    <respuestas>
+      <respuesta correcta="true">Windows</respuesta>
+      <respuesta correcta="false">Linux</respuesta>
+      <respuesta correcta="false">macOS</respuesta>
+    </respuestas>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes sistemas operativos es de código abierto?</enunciado>
+    <respuestas>
+      <respuesta correcta="true">Linux</respuesta>
+      <respuesta correcta="false">Windows</respuesta>
+      <respuesta correcta="false">macOS</respuesta>
+    </respuestas>
+  </pregunta>
+</preguntas>
